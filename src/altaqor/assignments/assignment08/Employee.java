@@ -16,9 +16,9 @@ public class Employee {
 		Employee objectName = new Employee();
 		
 		//access the instant variables from the method.
-		System.out.println("ID Instance : "+objectName.id);
-		System.out.println("Name Instance : "+objectName.name); 
-		System.out.println("Salary Instance :"+objectName.salary);
+		System.out.println("Employee ID : "+objectName.id);
+		System.out.println("Employee Name : "+objectName.name); 
+		System.out.println("Employee Salary :"+objectName.salary);
 		
 	
 		//call static variable 
