@@ -1,8 +1,6 @@
 package altaqor.assignments.assignment10;
 
 public class StudentTest {
-
-	
 	
 	public static void main(String[] args) {
 		//calling non-static methods from class Student.
@@ -30,7 +28,7 @@ public class StudentTest {
 	
 	
 	
-	
+
 	
 
 	
