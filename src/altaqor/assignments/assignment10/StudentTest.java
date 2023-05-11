@@ -24,11 +24,6 @@ public class StudentTest {
 		//setStudentCount is Private static method so it is not accessible in different class.
 			/*String count1 =declaration.setStudentCount();
 			System.out.println();*/
-		
-	
-	
-	
-
 	
 
 	

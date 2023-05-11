@@ -1,1 +1,0 @@
-package altaqor.assignments.assignment12;

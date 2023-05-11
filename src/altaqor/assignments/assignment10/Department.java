@@ -6,7 +6,6 @@ public class Department {
 		return "DepartmentName:" + depart;
 	}
 	
-	
 	static void setDepartmentName(String depart) {
 		System.out.println ("DepartmentName:" + depart);
 		

@@ -7,6 +7,7 @@ public class Student {
 		 System.out.println("RollNo: " +id);
 	}
 
+
 	public String  getStudentInfo(String fname, String lname, int id) {
 		return "Name: "+ fname+ " "  + lname+ "\nRollNo:"+ id;
 		
@@ -46,7 +47,6 @@ public static void main(String[] args) {
 	
 	std.getStudentCount();
 	System.out.println("If number of Student = 10:" +true);
-	
 	
 	
 }	
