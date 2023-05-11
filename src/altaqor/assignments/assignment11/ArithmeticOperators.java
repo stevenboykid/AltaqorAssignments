@@ -7,7 +7,7 @@ public class ArithmeticOperators {
 		//Arithmetic operators Addition(+),Subtraction(-),Multiplication(*),Division(/),Modulus(%).
 		int x =50;
 		int y =10;
-		
+	
 		int sum = x+y;
 		int sub = x-y;
 		int mul = x*y;
