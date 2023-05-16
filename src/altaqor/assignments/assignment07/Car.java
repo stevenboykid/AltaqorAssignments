@@ -1,4 +1,4 @@
-package altaqor.assignments.assignment7;
+package altaqor.assignments.assignment07;
 
 public class Car {
 	
