@@ -4,7 +4,7 @@ public class CheckGreaterOrLess {
 public static void main(String[] args) {
 	
 	int x=33;
-	int y=7;
+	int y=77;
 	
 	boolean resultCheck= x>y;
 	if(resultCheck) {
@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	}
 	
 	else {
-		System.out.println(y + " is less than" + x);
+		System.out.println(x + " is less than" + y);
 	}
 }
 }
