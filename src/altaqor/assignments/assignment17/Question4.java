@@ -4,17 +4,28 @@ public class Question4 {
 	public static void main(String[] args) {
 		
 		String email= "pahari.rc2010@gmail.com";
-		boolean contentEqualsCheck=email.contentEquals("pahari.rc2020@gmail.com");
-		System.out.println(contentEqualsCheck);
-		//using if condition for validity checking
-		
-		if ( email== "pahari.rc2020@gmail.com") {
-			System.out.println("string is a valid email address");
+		if ((email.contains("@")) && (email.contains("."))){
+			
+			if (email.indexOf('@')>0) {
+				
+				if ((email.indexOf('.')>0) && (email.indexOf('.')< email.length()-1)) {
+					
+					System.out.println("YOur Email is Valid.");
+				}
+				else {
+					System.out.println("Email is not Valid");
+				}
+				
+			}
 			
 		}
 		
-		else {
-			System.out.println("String is not a Valid Address");
-		}
 	}
+	
 }
+			
+			
+			
+		
+		
+
