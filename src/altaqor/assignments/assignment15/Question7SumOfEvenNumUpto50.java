@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment15;
 
-public class Question7SumOfEvenNumFrom1to50 {
+public class Question7SumOfEvenNumUpto50 {
 public static void main(String[] args) {
 	
 	//calculating the sum of even number from 1 to 50.

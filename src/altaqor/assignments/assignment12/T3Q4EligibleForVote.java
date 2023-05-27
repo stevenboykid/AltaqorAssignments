@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment12;
 
-public class EligibleForVote {
+public class T3Q4EligibleForVote {
 	public static void main(String[] args) {
 		
 		int myAge =16;

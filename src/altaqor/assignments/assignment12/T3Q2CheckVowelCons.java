@@ -1,7 +1,7 @@
 package altaqor.assignments.assignment12;
 
 	import java.util.Scanner;
-public class CheckVowelCons {
+public class T3Q2CheckVowelCons {
 	
 	public static void main(String[] args) {
 		 Scanner scanner = new Scanner(System.in);

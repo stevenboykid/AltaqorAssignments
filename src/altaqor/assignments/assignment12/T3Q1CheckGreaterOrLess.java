@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment12;
 
-public class CheckGreaterOrLess {
+public class T3Q1CheckGreaterOrLess {
 public static void main(String[] args) {
 	
 	int x=33;

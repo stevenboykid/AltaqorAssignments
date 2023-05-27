@@ -2,7 +2,9 @@ package altaqor.assignments.assignment19;
 
 public class SavingAccount extends BankAccount{
 		
-		
+		double balance;
+		double damount;
+		double wamount;
 	
 
 	public double getBalance(double balance) {
@@ -12,27 +14,33 @@ public class SavingAccount extends BankAccount{
 	}
 	
 	public void deposit(double damount) {
+		this.damount=damount;
 		System.out.println("Diposited Amount is: " +damount);
 	}
 	
 		
 	public void withdrawl(double wamount) {
+		this.wamount=wamount;
 		System.out.println("Withdrawl Amount is :" + wamount);
 		
 	}
 	public static void main(String[] args) {
 		SavingAccount saving =new SavingAccount();
-		saving.getBalance(7000);
+		saving.getBalance(125000);
 		saving.withdrawl(7000);
 		saving.deposit(75000);
 	}
 
 	
+	
+	public double newBalance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
 	public double getBalance() {
-		//double =wamount;
-		//double  amount=wamount;
-		//double  = 0;
-		//System.out.println("Your New Balance is:" + i + amount);
+		// TODO Auto-generated method stub
 		return 0;
 	}
 

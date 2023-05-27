@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment12;
 
-public class CheckPositiveAndnegitive {
+public class T3Q3CheckPositiveOrNegitive {
  public static void main(String[] args) {
 	int x=-7;
 	 boolean pCheck= x>0;

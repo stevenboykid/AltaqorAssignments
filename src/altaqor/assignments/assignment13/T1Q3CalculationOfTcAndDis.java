@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment13;
 
-public class T1Q3CalculationOfTcAndDiscount {
+public class T1Q3CalculationOfTcAndDis {
 	public static void main(String[] args) {
 		double perunitcost = 100;
 

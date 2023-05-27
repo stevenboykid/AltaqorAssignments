@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment15;
 
-public class Question4ForLoopGettingFibonacciSeries {
+public class Question4GettingFibonacciSeries {
  public static void main(String[] args) {
 	//Fibonacci series of numbers are like o,1,1,2,3,5,8,13,21,34,55,98,153,...
 		

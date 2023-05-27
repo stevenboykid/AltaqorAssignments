@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment15;
 
-public class Question5CalculatingTotalValueOfFactorial {
+public class Question5SumOfFactorial {
 public static void main(String[] args) {
 	
  int num1=7;

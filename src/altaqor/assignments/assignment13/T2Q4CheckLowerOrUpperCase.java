@@ -2,7 +2,7 @@ package altaqor.assignments.assignment13;
 
 import java.util.Scanner;
 
-public class T2Q4CheckWhetherLowerCaseOrUpper {
+public class T2Q4CheckLowerOrUpperCase {
 	
 	public static void main(String[] args) {
 		

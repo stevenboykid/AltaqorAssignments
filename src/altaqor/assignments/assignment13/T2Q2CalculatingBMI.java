@@ -2,7 +2,7 @@ package altaqor.assignments.assignment13;
 	
 	import java.util.Scanner;
 	
-public class T2Q2CalculatingBMIwithHeightAndweight {
+public class T2Q2CalculatingBMI {
 	
 	public static void main(String[] args) {
 		Scanner myScanner = new Scanner (System.in); 

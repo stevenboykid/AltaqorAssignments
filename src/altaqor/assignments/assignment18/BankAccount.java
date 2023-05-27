@@ -2,7 +2,7 @@ package altaqor.assignments.assignment18;
 
 public class BankAccount {
  
-	private String accountNumber;
+	//private String accountNumber;
 	private double balance;
 	private String passWord;
 
@@ -10,7 +10,7 @@ public class BankAccount {
 	
 public BankAccount (String accountNumber,double balance,String passWord) {
 	
-		this.accountNumber=accountNumber;
+		//this.accountNumber=accountNumber;
 		this.balance=balance;
 		this.passWord=passWord;
 	}
@@ -26,7 +26,7 @@ public BankAccount (String accountNumber,double balance,String passWord) {
 	  this.passWord=passWord;
   }
   
-  public String getPassWord() {
+  public String getPassWord() { 
 	return passWord;
 }
  
