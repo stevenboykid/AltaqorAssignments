@@ -12,7 +12,7 @@ public class Question6RightAngTrangleShape {
 		  
 		//inner loop for columns  
 		for(c=0; c<=r; c++) {   
-		  
+		  	
 		//prints stars   
 		System.out.print("* ");   
 			}

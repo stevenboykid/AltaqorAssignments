@@ -2,8 +2,10 @@ package altaqor.assignments.assignment17;
 
 public class Question5CountUpperCase {
 	public static void main(String[] args) {
-		 String text = "LiFe iS an OppoRtuNitY To do SomEthInG";
+		
+		String text = "LiFe iS an OppoRtuNitY To do SomEthInG";
         int upper = 0;
+        
        //here total length of 
         int length=text.length();
         
@@ -16,7 +18,6 @@ public class Question5CountUpperCase {
                 upper++;
             
         }
- 
         
         System.out.println("Upper case letters : " + upper);
 	}

@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	
 	
 	while (i<=count) {		
+		
     n3=n2+n1;
 		System.out.println(""+n3);
 		n1=n2;

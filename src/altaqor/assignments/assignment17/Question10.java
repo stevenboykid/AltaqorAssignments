@@ -4,7 +4,8 @@ public class Question10 {
 	public static void main(String[] args) {
 		String str = "Learning Java Programming";
 		   // character whose frequency must be determined
-	           char ch = 'o';
+	           
+			char ch = 'L';
 	           // store the frequency in freq
 	           int freq = 0;
 

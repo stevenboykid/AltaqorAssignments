@@ -20,15 +20,17 @@ public class Employee {
 		System.out.println("Employee Name : "+objectName.name); 
 		System.out.println("Employee Salary :"+objectName.salary);
 		
+		
 	
 		//call static variable 
-		System.out.println("Employee Count=  "+employeeCount );
-		System.out.println("Company Name=  "+Employee.companyName );
+		System.out.println("Employee Count= " + employeeCount );
+		System.out.println("Company Name=  " + Employee.companyName );
 		
 		//local variable
 		
 		 String department ="Computer";
 		 double taxRate =3.56;
+		 
 		 System.out.println("DepartmentName=" + department);
 		 System.out.println("Tax Rate =" + taxRate);
 		 

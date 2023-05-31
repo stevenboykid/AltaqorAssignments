@@ -38,7 +38,7 @@ public BankAccount (String accountNumber,double balance,String passWord) {
 		   return "Withdraw Success.\nYour Remaining Balance is: "+ balance;
 	  }
 	  else {
-		  return "Transaction Failed as you have insufficient fund.\nYour balnce is 2000";
+		  return "Transaction Failed as you have insufficient fund.\nYour balnce is: "+ balance;
 	  }
   }
 
@@ -47,7 +47,7 @@ public static void main(String[] args) {
 	
 	 BankAccount bank= new BankAccount("123", 2000, "a1");
 	 
-	 String statement=bank.withDraw(1500);
+	 String statement=bank.withDraw(2100);
 	 System.out.println(statement);
 	 
 	

@@ -6,8 +6,7 @@ public class AssignmentOperators {
 	public void addDivisonAssignment(int num1,int num2) {
 		num1/=num2; //num1=num1/num2=50/25=2
 		System.out.println("/= :" +num1);
-			
-		
+				
 	}
 	public static void main(String[] args) {
 		
@@ -17,6 +16,7 @@ public class AssignmentOperators {
 				int num3=5;
 				num2+= num1; //num2 = num2+num1=25+50=75
 				System.out.println("+= :" + num2);
+				
 				
 		//-= subtract and assignment operator
 				num2-= num1;//num2 =num2-num1=75-50=25

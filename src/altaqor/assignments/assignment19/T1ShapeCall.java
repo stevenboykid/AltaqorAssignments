@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment19;
 
-public class ShapeCall extends T1Shape{
+public class T1ShapeCall extends T1Shape{
 
 	
 	public void calculateAreaOfRectangle(double l, double b) {
@@ -19,7 +19,7 @@ public class ShapeCall extends T1Shape{
 	}
  public static void main(String[] args) {
 	//creating Object for class ShapeCall
-	 ShapeCall shape =new ShapeCall();
+	 T1ShapeCall shape =new T1ShapeCall();
 	 //calling methods
 	 shape.calculateAreaOfCircle(5);
 	 shape.calculateAreaOfRectangle(3.5,4);

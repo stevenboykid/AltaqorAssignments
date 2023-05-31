@@ -14,15 +14,14 @@ public class T2Q4CheckLowerOrUpperCase {
         // Using character class
         if (Character.isUpperCase(ch)) { 
             System.out.println(ch + " is UPPERCASE alphabet.");
-        } else if (Character.isLowerCase(ch)) {
+            } 
+        
+        else if (Character.isLowerCase(ch)) {
             System.out.println(ch + " is LOWERCASE alphabet.");
-        } else {
+            }
+        
+        else {
             System.out.println(ch + " is not an alphabet.");
         }
-		
-		
-		
-		
 	}
-
 }

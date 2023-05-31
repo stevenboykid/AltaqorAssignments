@@ -11,12 +11,12 @@ public class RelationalOperators {
 	    System.out.println(x>=y);//returns false 
 	    System.out.println(x>y); //returns true
 	    System.out.println(x<y); //returns false
+	    
 	    /*These are the main Relational operators in java where in each and every comparison
 	     the result is whether true or false*/
 	    
 	    boolean test1= x == y; //5=3 which is false
 	    System.out.println(x +"==" + y + ":" +test1);
 	    
-	
-}
+ 	}
 }

@@ -3,10 +3,10 @@ package altaqor.assignments.assignment15;
 public class Question4GettingFibonacciSeries {
  public static void main(String[] args) {
 	//Fibonacci series of numbers are like o,1,1,2,3,5,8,13,21,34,55,98,153,...
-		
+	//Getting Fibonacci sequence using  for loop 	
 	 int n1=0,n2=1,n3,i,count=11;
 		
-		//System.out.println(n1+","+n2);//printing 0 and 2
+		System.out.println(n1+","+n2);//printing 0 and 1
 		
 			for (i=2;i<=count;i++) {
 				n3=n2+n1;
@@ -14,6 +14,8 @@ public class Question4GettingFibonacciSeries {
 				System.out.println(""+n3);
 				n1=n2;
 				n2=n3;
-			}
-}
-}
+			}	
+			
+ 	}
+  		
+ }

@@ -8,11 +8,12 @@ public class Question9length {
 		String string = "Java";
 		int length= string.length();
 		
+		
 		if (length == 0)
 		    System.out.println("This String is empty");
+		
 		else
 		    System.out.println("This string is not empty");
-
 		
 	}
 }
