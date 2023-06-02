@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment10;
 
-public class Student {
+public class T1Student {
 	//crating non-static method in this case never use "static" word  in Method 
 	public void setStudentInfo(String fname, String lname, int id) {
 		 System.out.println("Name: " +fname +" "+ lname );
@@ -29,7 +29,7 @@ public class Student {
 	}
 public static void main(String[] args) {
 	
-	Student std = new Student();
+	T1Student std = new T1Student();
 	std.setStudentInfo("Ram", "Panday",05);
 
 	String info = std.getStudentInfo("Hari","Bhattrai",03);

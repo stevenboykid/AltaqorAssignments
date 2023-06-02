@@ -1,40 +1,34 @@
 package altaqor.assignments.assignment19;
 
-public class T2CheckingAccount extends T2BankAccount {
+public class T2CheckingAccount extends T2SavingAccount {
+	
 	public void DeductFees() {
 		
 		double balance;
-		balance=getBalance();
-		double fee = 0.02;
+		balance=super.getBalance();
+		double serviceFee = 0.02;
 		
-		fee=(fee*getBalance());
-		balance=getBalance()-fee;
-		System.out.println("Your Yearly Service fee @ 2%: "+ fee);
-		System.out.println("Your Net remaining Balance: " + balance);
+		serviceFee=(serviceFee*getBalance());
+		super.balance=balance-serviceFee;
+		System.out.println("Your Yearly Service fee @ 2%: "+ serviceFee);
+		System.out.println("Your Final Balance: "+ super.balance);
+		
 	}
 	
 	
-	@Override
-	public double getBalance() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void deposit(double amount) {
-		// TODO Auto-generated method stub
+		public static void main(String[] args) {
+			T2CheckingAccount service =new T2CheckingAccount();
+			//calling getBalnce method
+			double initial=service.getBalance(  );
+			System.out.println("Your Opening Balnce: "+initial);
+			
+			service.deposit(75000);//Calling deposit Method.
+			service.withdrawl(5000);//calling withdrawal Method
+			service.CalcualteInterest(11,2);
+			
 		
-	}
-
-	@Override
-	public void withdrawl(double amount) {
-		// TODO Auto-generated method stub
-		
-	}
-	public static void main(String[] args) {
-		T2CheckingAccount service =new T2CheckingAccount();
 		service.DeductFees();
-		//saving.DeductFees();
+		
 		
 	}
 }

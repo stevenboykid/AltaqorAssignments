@@ -12,7 +12,8 @@ public class T1ShapeCall extends T1Shape{
 	public void calculateAreaOfCircle(double r) {
 		double t =22;
 			 t= (t/=7);
-		double area1= t*r*r;
+		double area1= t*r*r;// Area of circle=(pie r square)
+		
 		
 		System.out.println("Area of Circle is: "+ area1);
 		

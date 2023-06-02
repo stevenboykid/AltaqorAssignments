@@ -1,4 +1,4 @@
-package altaqor.assignments.assignment19;
+ package altaqor.assignments.assignment19;
 
 public class T2SavingAccount extends T2BankAccount{
 		
@@ -36,10 +36,11 @@ public class T2SavingAccount extends T2BankAccount{
 		 interest= (balance*time*interest)/100;
 		 balance = balance + interest;
 		 
-		 this.balance=balance;
-		 System.out.println("Total Interest Amount is: "+ interest);
-		 System.out.println("Your New Balnce is: " + balance);	 
 		 
+		 System.out.println("Total Interest Amount is: "+ interest);
+		 //System.out.println("Your New Balnce is: " + balance);	 
+		 
+		 //this.balance=balance;
 	 }
 	 public static void main(String[] args) {
 		T2SavingAccount saving =new T2SavingAccount();

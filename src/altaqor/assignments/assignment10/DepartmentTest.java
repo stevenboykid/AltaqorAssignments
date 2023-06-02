@@ -4,7 +4,7 @@ public class DepartmentTest {
 	
 	public static void main(String[] args) {
 		//calling static methods from class Student.
-		Student information =new Student();
+		T1Student information =new T1Student();
 				information.setStudentInfo("Ram","Pahari",33);
 				
 				//calling method getStudentInfo with Return value String.
