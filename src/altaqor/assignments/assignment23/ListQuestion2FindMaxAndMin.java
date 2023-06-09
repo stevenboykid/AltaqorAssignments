@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment23;
 
-public class ListQuestion2 {
+public class ListQuestion2FindMaxAndMin {
 	public static void main(String[] args) {
 		
 		int[] numbers= {13, 33, 35, 88, 23, 11, 99 };

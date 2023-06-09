@@ -1,6 +1,6 @@
 package altaqor.assignments.assignment23;
 
-public class Question1CopyElements {
+public class ListQuestion1CopyElements {
 	
 	public static void main(String[] args) {
 		 

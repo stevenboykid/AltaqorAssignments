@@ -3,7 +3,7 @@ package altaqor.assignments.assignment23;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ListQuestion3 {
+public class ListQuestion3SortInReverse {
 	public static void main(String[] args) {
 		
 	ArrayList<Integer> myNumbers = new ArrayList<Integer>();

@@ -9,7 +9,7 @@ public class Question5SumOfNumbersUpToNegativeInput {
 
         // create an object of Scanner
         Scanner input = new Scanner(System.in);
-      
+            
         while (true) {
             System.out.print("Enter your number: ");
 

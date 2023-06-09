@@ -2,7 +2,7 @@ package altaqor.assignments.assignment18;
 
 public class BankAccount {
  
-	//private String accountNumber;
+	private String accountNumber;
 	private double balance;
 	private String passWord;
 
@@ -10,7 +10,7 @@ public class BankAccount {
 	
 public BankAccount (String accountNumber,double balance,String passWord) {
 	
-		//this.accountNumber=accountNumber;
+		this.accountNumber =accountNumber;
 		this.balance=balance;
 		this.passWord=passWord;
 	}
@@ -18,7 +18,7 @@ public BankAccount (String accountNumber,double balance,String passWord) {
 	  return balance;
 	  
   }
-  public void setBalance(int balance) {
+  public void setBalance(double balance) {
 		this.balance = balance;
 	}
   
@@ -30,30 +30,36 @@ public BankAccount (String accountNumber,double balance,String passWord) {
 	return passWord;
 }
  
-  public String withDraw(double withdrawAmount ) {
-	  if (balance>=withdrawAmount) {
-		double remainingBalance=balance-withdrawAmount;
-		   balance=remainingBalance;
-		   
-		   return "Withdraw Success.\nYour Remaining Balance is: "+ balance;
-	  }
-	  else {
-		  return "Transaction Failed as you have insufficient fund.\nYour balnce is: "+ balance;
-	  }
-  }
+  public void withDraw(double withdrawAmount ) {
+	  if (balance<withdrawAmount) {
+		  System.out.println("Transaction Failed as you have insufficient fund.\n Your balnce is: "+ balance);
+	  
+	  	}else {
+			  balance-= withdrawAmount;
+			  System.out.println("Withdrawal of " + withdrawAmount + " is Successful\n Your Remaining Balance: "+balance);
+		  }
+			  
+		}
+		 
+		  public static void main(String[] args) {
+			  String acc= "01r12345";
+			  BankAccount account =new BankAccount(acc,10000.00,"Rp123");
+			  System.out.println("Your Transacton Account Number: " + acc); 
+			  //perform withdrawal operation
+			  double withdrawAmount=5000.00;
+			  account.withDraw(withdrawAmount);
+			 
+			 
+			 			
+		}
 
 
-public static void main(String[] args) {
-	
-	 BankAccount bank= new BankAccount("123", 2000, "a1");
-	 
-	 String statement=bank.withDraw(2100);
-	 System.out.println(statement);
+
 	 
 	
 }
 
-}
+
  
 	
 	
