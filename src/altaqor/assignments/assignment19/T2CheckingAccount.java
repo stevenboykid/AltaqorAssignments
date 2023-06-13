@@ -7,7 +7,7 @@ public class T2CheckingAccount extends T2SavingAccount {
 		double balance;
 		balance=super.getBalance();
 		double serviceFee = 0.02;
-		
+				
 		serviceFee=(serviceFee*getBalance());
 		super.balance=balance-serviceFee;
 		System.out.println("Your Yearly Service fee @ 2%: "+ serviceFee);

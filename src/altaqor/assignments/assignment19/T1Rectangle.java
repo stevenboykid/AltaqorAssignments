@@ -1,4 +1,4 @@
- package altaqor.assignments.assignment19;
+  package altaqor.assignments.assignment19;
 
 public class T1Rectangle extends T1Shape{
 	

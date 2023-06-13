@@ -1,9 +1,9 @@
 package altaqor.assignments.assignment20;
 
-public class Circle extends Shape {
+public class Q1Circle extends Q1Shape {
 	private double radious;
 
-	public Circle(double radious) {
+	public Q1Circle(double radious) {
 		this.radious = radious;
 
 	}

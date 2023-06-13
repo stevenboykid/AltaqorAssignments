@@ -1,8 +1,8 @@
 package altaqor.assignments.assignment18;
 
 public class BankAccount {
- 
-	private String accountNumber;
+ //Creating instance constructor
+	//private String accountNumber;
 	private double balance;
 	private String passWord;
 
@@ -10,7 +10,7 @@ public class BankAccount {
 	
 public BankAccount (String accountNumber,double balance,String passWord) {
 	
-		this.accountNumber =accountNumber;
+		//this.accountNumber =accountNumber;
 		this.balance=balance;
 		this.passWord=passWord;
 	}
@@ -43,7 +43,7 @@ public BankAccount (String accountNumber,double balance,String passWord) {
 		 
 		  public static void main(String[] args) {
 			  String acc= "01r12345";
-			  BankAccount account =new BankAccount(acc,10000.00,"Rp123");
+			  BankAccount account =new BankAccount(acc,10000.00,"RP123");
 			  System.out.println("Your Transacton Account Number: " + acc); 
 			  //perform withdrawal operation
 			  double withdrawAmount=5000.00;

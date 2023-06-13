@@ -4,8 +4,6 @@ public class T2SavingAccount extends T2BankAccount{
 		
 	double balance=30000;
 		
-		
-		
 		//method for initial balance
 		public double getBalance() {
 			return balance;
